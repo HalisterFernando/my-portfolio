@@ -45,12 +45,17 @@ export default function Header() {
         className="
       bg-indigo
       m-0
+      2lg:hidden
       overflow-hidden
       transition-all duration-500
-      max-h-0
-      peer-checked:max-h-10"
+      max-h-0 peer-checked:max-h-10"
       >
-        <HeaderNav />
+        <nav className="lg:hidden flex justify-evenly">
+          <a className="header-link" href="#profile"> Perfil</a>
+          <a className="header-link" href="#front-end"> Habilidades </a>
+          <a className="header-link" href="#projects"> Projetos </a>
+          <a className="header-link" href="#contact"> Contato </a>
+        </nav>
       </div>
     </div>
   );

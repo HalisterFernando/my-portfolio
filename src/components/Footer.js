@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <div
+    <footer
       className="
       bg-indigo
       p-4
@@ -19,7 +19,7 @@ export default function Footer() {
       font-semibold
       font-sans"
       >
-        Desenvolvido por mim, com React, TailwindCSS, e algumas xícaras de café
+        Desenvolvido por mim com React, TailwindCSS, e algumas xícaras de café
       </p>
       <div>
         <p className="text-white text-xl font-bold">
@@ -33,6 +33,6 @@ export default function Footer() {
           <li><a className="text-white" href="https://www.flaticon.com/br/icones-gratis/designer-de-web" title="designer de web ícones">Designer de web ícones criados por srip - Flaticon</a></li>
         </ul>
       </div>
-    </div>
+    </footer>
   );
 }

@@ -5,7 +5,15 @@ import HeaderNav from './HeaderNav';
 
 export default function Header() {
   return (
-    <div className="fixed border-b-2 border-white bg-indigo w-full overflow-hidden z-20">
+    <header
+      className="
+    fixed
+    border-b-2 border-white
+    bg-indigo
+    w-full
+    overflow-hidden
+    z-20"
+    >
       <input
         type="checkbox"
         className="
@@ -57,6 +65,6 @@ export default function Header() {
           <a className="header-link" href="#contact"> Contato </a>
         </nav>
       </div>
-    </div>
+    </header>
   );
 }

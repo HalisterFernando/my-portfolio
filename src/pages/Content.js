@@ -7,7 +7,7 @@ import Profile from '../components/Profile';
 
 export default function Content() {
   return (
-    <div
+    <main
       className="
     bg-ultramarine flex flex-col items-center
     px-4 pt-20
@@ -25,6 +25,6 @@ export default function Content() {
         </div>
       </div>
       <Contacts />
-    </div>
+    </main>
   );
 }

@@ -60,7 +60,7 @@ export default function Header() {
       >
         <nav className="lg:hidden flex justify-evenly">
           <a className="header-link" href="#profile"> Perfil</a>
-          <a className="header-link" href="#front-end"> Habilidades </a>
+          <a className="header-link" href="#skills"> Habilidades </a>
           <a className="header-link" href="#projects"> Projetos </a>
           <a className="header-link" href="#contact"> Contato </a>
         </nav>

@@ -9,7 +9,7 @@ export default function HeaderNav() {
 
         </li>
         <li>
-          <a className="header-link" href="#front-end"> Habilidades </a>
+          <a className="header-link" href="#skills"> Habilidades </a>
 
         </li>
         <li>

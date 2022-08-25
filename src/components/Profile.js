@@ -3,16 +3,17 @@ import Web from '../images/designer.png';
 
 export default function Profile() {
   return (
-    <div
+    <section
       id="profile"
       className="
     flex flex-col justify-evenly items-center
     mb-8
+    pt-10
     h-screen
     md:w-[80%]"
     >
       <div>
-        <img className="h-28" src={ Web } alt="" />
+        <img className="h-28" src={ Web } alt="Perfil" />
       </div>
       <p
         className="
@@ -45,19 +46,30 @@ export default function Profile() {
           própria com incentivo dos amigos, e após alguns meses
           conheci a
 
-          <a className="italic transition ease-in-out delay-75 hover:text-light-blue" href="https://www.betrybe.com/?utm_source=trybe.com.br" target="_blank" rel="noreferrer">Trybe</a>
+          <a
+            className="
+          italic transition
+          ease-in-out delay-75
+          hover:text-light-blue"
+            href="https://www.betrybe.com/?utm_source=trybe.com.br"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <strong>Trybe</strong>
+
+          </a>
           , que tem me ensinado não só conhecimento técnico
 
-          <em>(hardskills)</em>
+          <em> (hardskills)</em>
           ,
           como também habilidades socioemocionais
 
-          <em>(sofskills)</em>
+          <em> (sofskills)</em>
           .
           Continuo estudando com o objetivo de me tornar
           fullstack, com muita vontade de superar novos desafios!
         </p>
       </div>
-    </div>
+    </section>
   );
 }

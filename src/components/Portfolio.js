@@ -13,31 +13,43 @@ export default function Portfolio() {
     />
   ));
   return (
-    <div className="flex flex-col justify-evenly items-center h-screen">
+    <div
+      className="
+    hidden
+    md:flex md:mt-14
+    md:flex-col
+    md:justify-evenly
+    md:items-center
+    "
+    >
       <div>
         <img className="h-24" src={ Works } alt="Portfolio" />
       </div>
       <p
         className="
-      text-xl
-      font-bold
-      md:text-4xl md:font-medium text-center
-      text-white mt-3 italic"
+        md:text-4xl md:font-medium
+        font-bold
+        text-xl
+        text-center
+      text-white
+        italic
+        mt-8
+      "
       >
         Alguns projetos que desenvolvi nessa jornada!
       </p>
       <div
         className="
-      mt-1
+      mt-8
       p-3
       flex flex-col items-center
-      w-full
+      w-[80%]
       border border-light-blue rounded-md
       bg-indigo
       "
       >
         <h3 className="text-4xl text-white my-4 text-center">Projetos</h3>
-        <div className="flex flex-wrap justify-between gap-4 p-3 ">
+        <div className="flex flex-wrap justify-center gap-4 p-3 ">
           {renderImages()}
         </div>
       </div>

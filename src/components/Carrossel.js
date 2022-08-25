@@ -16,21 +16,22 @@ export default function Carrossel() {
     />
   ));
   return (
-    <div className="flex flex-col items-center">
+
+    <div className="flex flex-col  items-center w-full md:hidden">
       <div>
         <img className="h-24" src={ Projects } alt="Portfolio" />
       </div>
       <p
         className="
-      text-xl
-      text-center
-      text-white
-      italic
-      font-bold
-      my-8
-      mt-3
-      md:text-4xl md:font-medium
-      "
+        text-xl
+        text-center
+        text-white
+        italic
+        font-bold
+        my-8
+        mt-3
+        md:text-4xl md:font-medium
+        "
       >
         Aplicações que já desenvolvi nessa jornada!
       </p>
@@ -64,5 +65,6 @@ export default function Carrossel() {
         {renderImages()}
       </Carousel>
     </div>
+
   );
 }

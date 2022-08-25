@@ -6,17 +6,11 @@ import Content from './pages/Content';
 
 function App() {
   return (
-    <div>
-      <header>
-        <Header />
-      </header>
-      <main>
-        <Content />
-      </main>
-      <footer>
-        <Footer />
-      </footer>
-    </div>
+    <>
+      <Header />
+      <Content />
+      <Footer />
+    </>
   );
 }
 

@@ -5,8 +5,8 @@ import FrontEndSkills from './FrontEndSkills';
 
 export default function Devtools() {
   return (
-    <div id="front-end" className="mt-8 w-full flex flex-col">
-      <div className="flex flex-col items-center justify-evenly h-screen">
+    <section id="skills" className="pt-16 mt-14 w-full h-screen flex flex-col">
+      <div className="flex flex-col items-center justify-evenly">
         <div>
           <img className="h-24" src={ Front } alt="Front-end" />
         </div>
@@ -18,7 +18,7 @@ export default function Devtools() {
         text-center
         font-bold
         italic
-        mt-3
+        mt-6
         "
         >
           Habilidades adquiridas até o momento
@@ -33,6 +33,6 @@ export default function Devtools() {
         </div>
       </div>
 
-    </div>
+    </section>
   );
 }

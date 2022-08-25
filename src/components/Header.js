@@ -5,7 +5,15 @@ import HeaderNav from './HeaderNav';
 
 export default function Header() {
   return (
-    <div className="fixed border-b-2 border-white bg-indigo w-full overflow-hidden z-20">
+    <header
+      className="
+    fixed
+    border-b-2 border-white
+    bg-indigo
+    w-full
+    overflow-hidden
+    z-20"
+    >
       <input
         type="checkbox"
         className="
@@ -52,11 +60,11 @@ export default function Header() {
       >
         <nav className="lg:hidden flex justify-evenly">
           <a className="header-link" href="#profile"> Perfil</a>
-          <a className="header-link" href="#front-end"> Habilidades </a>
+          <a className="header-link" href="#skills"> Habilidades </a>
           <a className="header-link" href="#projects"> Projetos </a>
           <a className="header-link" href="#contact"> Contato </a>
         </nav>
       </div>
-    </div>
+    </header>
   );
 }

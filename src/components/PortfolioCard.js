@@ -12,8 +12,10 @@ export default function PortfolioCard({ image, name, link }) {
           className="
         text-2xl
         font-bold font-heading"
+          target="_blank"
           href={ link }
           alt={ name }
+          rel="noreferrer"
         >
           {name}
         </a>

@@ -5,7 +5,7 @@ import FrontEndSkills from './FrontEndSkills';
 
 export default function Devtools() {
   return (
-    <section id="skills" className="pt-16 mt-14 w-full h-screen flex flex-col">
+    <section id="skills" className="pt-16 mt-14 mb-64 w-full h-screen flex flex-col">
       <div className="flex flex-col items-center justify-evenly">
         <div>
           <img className="h-24" src={ Front } alt="Front-end" />

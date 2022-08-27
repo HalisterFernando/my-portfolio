@@ -12,6 +12,7 @@ export default function Contacts() {
       mt-3
       text-2xl
       text-center italic
+      pt-20
       "
       >
         Vamos trabalhar juntos?

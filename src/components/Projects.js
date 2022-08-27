@@ -9,7 +9,7 @@ export default function Projects() {
       className="
     w-full h-screen
     flex flex-col justify-evenly
-    pt-10 mt-36"
+    pt-10 mt-36 mb-60"
     >
       <Carrossel />
       <Portfolio />

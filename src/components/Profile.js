@@ -64,7 +64,7 @@ export default function Profile() {
           ,
           como também habilidades socioemocionais
 
-          <em> (sofskills)</em>
+          <em> (softskills)</em>
           .
           Continuo estudando com o objetivo de me tornar
           fullstack, com muita vontade de superar novos desafios!
